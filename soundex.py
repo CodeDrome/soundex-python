@@ -1,5 +1,5 @@
 
-def soundex(name):
+def soundex(name: str) -> str:
 
     """
     The Soundex algorithm assigns a 1-letter + 3-digit code to strings,
